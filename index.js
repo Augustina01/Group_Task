@@ -7,26 +7,6 @@ button.addEventListener("click", function() {
 function navigateToCampground() {
     window.location.href = "./ulap.html"; 
 }
-// // 
-// // Add click event listeners to each "View Campground" button
-// document.getElementById("but1").addEventListener("click", navigateToCampground);
-// document.getElementById("but2").addEventListener("click", navigateToCampground);
-// document.getElementById("but3").addEventListener("click", navigateToCampground);
-// document.getElementById("but4").addEventListener("click", navigateToCampground);
-// document.getElementById("but5").addEventListener("click", navigateToCampground);
-// document.getElementById("but6").addEventListener("click", navigateToCampground);
-
-
-// // (Get a reference to the HTML element where you want to render the data)
-// const outputElement = document.getElementById("output");
-
-// // (Map through the array and render it on the page)
-
-// data.map(item => {
-//     const itemElement = document.createElement("p");
-//     itemElement.textContent = item;
-//     outputElement.appendChild(itemElement);
-// }
 
 
   function navigateToCampground() {
@@ -36,7 +16,7 @@ function navigateToCampground() {
     // Define a mapping of campground names to their URLs
     const campgroundUrls = {
       'mount ulap': './ulap.html', 
-      'calaguas island': 'calaguas.html',  
+      'calaguas island': 'cala.html',  
       'onay beach': 'onay.html',  
       'seven sisters waterfall': 'seven.html',  
       'latic riverside': 'latik.html',  
@@ -54,4 +34,5 @@ function navigateToCampground() {
 
   // Attach a click event listener to the "Search" button
   const searchButton = document.getElementById('searchButton');
+  
   searchButton.addEventListener('click', navigateToCampground);
