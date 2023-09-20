@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+   </head>
+<body class="mx-4 sm:mx-8 md:mx-24 my-4 sm:my-8 md:my-24">
+
+    <!-- nav area -->
+    <nav class="flex flex-row items-center justify-between mx-4 sm:mx-8 md:mx-24 my-4 sm:my-8 md:my-24">
+        <div class="flex items-center gap-5">
+            <img src="./Assets/Logo.svg" alt="Logo" >
+            <a href="#" class="font-medium hover:text-gray-500 hidden sm:inline-block md:inline-block">Home</a>
+        </div>
+        <div class="gap-5 ">
+            <a href="#" class="font-medium hover:text-gray-500 hidden sm:inline-block md:inline-block">Login</a>
+            <button class="p-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-500 hidden sm:inline-block md:inline-block">Create Account</button>
+        </div>
+        <button class="p-3 md:hidden">
+         <img src="./Assets/Hamburger Menu.svg" alt="Menu Icon" class="w-6 h-6">
+        </button>
+    </nav>
+    <!-- End of nav area -->
+
+    <!-- hero section -->
+    <div class="bg-yellow-50 mt-7 mx-4 sm:mx-8 md:mx-24 my-4 sm:my-8 md:my-24 p-4 sm:p-10">
+        <div class="p-4">
+            <h2 class="text-3xl font-semibold">Welcome to YelCamp!</h2>
+            <p class="text-sm">View our hand-picked campgrounds from all over<br> the world or add your own</p>
+            <div class="flex flex-col md:flex-row mb-4">
+                <div class="relative mt-5 gap-5">
+                    <div class="relative  sm:w-full">
+                        <input type="text" class="pl-10 pr-4 py-2 px-1 border border-gray-300 focus:border-blue-500 focus:outline-none 
+                        focus:ring focus:ring-blue-200 rounded-lg text-xs w-full sm:w-auto" placeholder="Search for camps">
+                        <img src="./Assets/Search Icon.svg" alt="Search Icon" class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 sm:w-10">
+                    </div>
+                </div>
+                <div class="mt-5 ">
+                    <button class="font-medium bg-black text-white rounded-lg p-2 w-full sm:w-auto">Search</button>
+                </div>
+            </div>
+            <p class="underline text-sm">Or add your own campground</p>
+        </div>
+    </div>
+    
+    
+    <!-- End hero section -->
+
+    <!-- campground gallery -->
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12 mx-4 sm:mx-8 md:mx-24 ">
+        <div class="w-full sm:w-64 md:w-full border p-2 rounded-lg">
+            <img src="./Assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt="">
+            <p class="font-medium text-lg">Mount Ulap</p>
+            <p class="text-xs">One of the most famous hikes in Benguet is Mt. Ulap in Itogon</p>
+            <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+        </div>
+        <div class="w-full sm:w-64  md:w-full border p-2 rounded-lg">
+            <img src="./Assets/Camp Images/Compressed Images/Calaguas Island.jpg" alt="">
+            <p class="font-medium text-lg">Calaguas Island</p>
+            <p class="text-xs">A paradise island that can rival the white sand beauty of Boracay</p>
+            <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+        </div>
+<div class="w-full sm:w-64 md:w-full border p-2 rounded-lg ">
+    <img src="./Assets/Camp Images/Compressed Images/Onay Beach.jpg" alt="">
+    <p class="font-medium text-lg">Onay Beach</p>
+    <p class="text-xs">This is one of the best beach camping sites, beautiful and pristine</p>
+    <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+</div>
+<div class="w-full sm:w-64 md:w-full border p-2  rounded-lg ">
+    <img src="./Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" alt="">
+    <p class="font-medium text-lg">Seven sisters waterfall</p>
+    <p class="text-xs">The seventh sister is the 39th waterfall in Norway</p>
+    <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+</div>
+<div class="w-full sm:w-64 md:w-full border p-2  rounded-lg ">
+    <img src="./Assets/Camp Images/Compressed Images/Latik Riverside.jpg" alt="">
+    <p class="font-medium text-lg">Latic Riverside</p>
+    <p class="text-xs">Phillipines is one of the most dazzling country in all of Asia</p>
+    <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+</div>
+<div class="w-full sm:w-64 md:w-full  border p-2  rounded-lg ">
+    <img src="./Assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt="">
+    <p class="font-medium text-lg">Buloy Springs</p>
+    <p class="text-xs">This is one of the best camping site, beautiful and pristine</p>
+    <button class="w-full p-2 border mt-3 font-medium">View campground</button>
+</div>
+</div>
+        <!-- End of campground gallery -->
+<img src="./Assets/Logo.svg" alt="" class="mt-24 mx-24">
+    
+
+
+
+    <!--End of nav area -->
+</body>
+</html>

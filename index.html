@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Assignment</title>
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    </head>
+<body>
+    <!-- Creating a div containing the columns -->
+    <div class="h-screen bg-neutral-50 flex lg:flex-row flex-col justify-between ">
+        <!-- individual divs for the larger screen size -->
+        <div class="lg:basis-1/2 lg:flex-1 lg:ml-28 lg:mr-20 lg:mt-9">
+            <!-- A div containing the logo -->
+            <div class="lg:w-full lg:mt-4 ml-6 my-3 md:my-12">
+                <img class="h-8" src="./Assets/Logo.svg">
+            </div>
+            <!-- A div that would containing the image for smaller screen size and stay hidden for a larger screen size -->
+            <div class="lg:hidden w-full h-72 md:h-80">
+                <img class="w-full h-72 md:h-80" src="./Assets/Hero Image.jpg" alt="Hero jpg">
+            </div>
+            <!-- A div containing the write up -->
+            <div class="lg:mt-3 lg:w-full m-5 md:leading-6">
+                <div>
+                    <h1 class="lg:text-5xl md:text-5xl text-4xl font-bold">Explore the best camps on Earth.</h1>
+                    <p class="mt-4 text-lg font-medium md:font-semibold pb-2 text-stone-500 tracking-normal">Yelpcamp is a curated list of the best camping spot on Earth.Unfiltered and Unbiased review</p>
+                    <!-- Creating a flex div -->
+                    <div class="flex flex-col space-y-2">
+                        <!-- Using the inline flex property to place the icon beside the text -->
+                        <div class="inline-flex ">
+                            <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-lg font-medium text-stone-500">Add your own camp suggestions</span>
+                            
+                        </div>
+                        <div class="inline-flex">
+                            <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-lg font-medium text-stone-500">Leave reviews and experiences</span>
+
+                        </div>
+                        <div class="inline-flex">
+                             <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-lg font-medium  text-stone-500">See location for all camps</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Creating  a button -->
+                <button class="h-10 w-48 md:w-52 my-2 md:my-8 bg-black text-white rounded md:text-xl text-base">View campgrounds</button>
+                 
+                <!-- Another flexed div -->
+                <div class="flex flex-col">
+                    <p class="font-medium text-lg md:font-semibold text-stone-500">Partnered with:</p>
+                    <div class="flex justify-items-start mt-2">
+                        <img src="./Assets/Airbnb.svg" alt="Airbnb icon">
+                        <img src="./Assets/Booking.svg" alt="booking icon">
+                        <img src="./Assets/Plum Guide.svg" alt="plum guide icon"> 
+                    </div>
+                    
+                </div>
+            </div>
+        
+        </div>
+        <!-- A div that stays visible for larger screen size and hidden for a smaller screen size-->
+        <div class="lg:h-full lg:basis-1/2 lg:flex-2 lg:block hidden">
+            <img class="lg:h-full lg:w-full" src="./Assets/Hero Image.jpg" alt="Hero image jpg">
+        </div>
+    </div>
+</body>
+</html>
