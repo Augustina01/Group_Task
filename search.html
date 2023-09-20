@@ -33,13 +33,13 @@
             <div class="flex flex-col md:flex-row mb-4">
                 <div class="relative mt-5 gap-5">
                     <div class="relative  sm:w-full">
-                        <input type="text" class="pl-10 pr-4 py-2 px-1 border border-gray-300 focus:border-blue-500 focus:outline-none 
+                        <input type="text" id="searchInput" class="pl-10 pr-4 py-2 px-1 border border-gray-300 focus:border-blue-500 focus:outline-none 
                         focus:ring focus:ring-blue-200 rounded-lg text-xs w-full sm:w-auto" placeholder="Search for camps">
                         <img src="./Assets/Search Icon.svg" alt="Search Icon" class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 sm:w-10">
                     </div>
                 </div>
                 <div class="mt-5 ">
-                    <button class="font-medium bg-black text-white rounded-lg p-2 w-full sm:w-auto">Search</button>
+                    <button id="searchButton" class="font-medium bg-black text-white rounded-lg p-2 w-full sm:w-auto" onclick="navigateToCampground()">Search</button>
                 </div>
             </div>
             <p class="underline text-sm">Or add your own campground</p>

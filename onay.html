@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./src/input.css">
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="mx-4 sm:mx-8 md:mx-24 my-4 sm:my-8 md:my-24">
+    <!-- nav area -->
+    <nav class="flex flex-row items-center justify-between">
+        <div class="flex items-center gap-5">
+            <img src="./Assets/Logo.svg" alt="Logo">
+            <a href="#" class="font-medium hover:text-gray-500 hidden sm:inline-block md:inline-block">Home</a>
+        </div>
+        <div class="gap-5">
+            <a href="#" class="font-medium hover:text-gray-500 hidden sm:inline-block md:inline-block">Login</a>
+            <button class="p-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-500 hidden sm:inline-block md:inline-block">Create Account</button>
+        </div>
+        <button class="p-3 md:hidden">
+            <img src="./Assets/Hamburger Menu.svg" alt="Menu Icon" class="w-6 h-6">
+        </button>
+    </nav>
+    <!-- End of nav area -->
+
+    <main class="flex flex-col sm:flex-row items-start justify-between">
+        <div class="sm:w-1/2">
+            <!-- Map image at the top (visible on laptops) -->
+            <div class="border p-5 sm:p-10 w-full sm:w-2/3 mx-auto sm:mx-0 mb-5 sm:mb-0 hidden lg:block">
+                <img src="./Assets/Map.png" alt="Map" class="mt-0">
+            </div>
+        </div>
+
+        <div class="sm:w-1/2 mx-4 my-4">
+            <div class="border p-5 sm:p-10">
+                <img src="./Assets/Camp Images/Compressed Images/Onay Beach.jpg" alt="Mount Ulap" class="w-full">
+                <div class="flex flex-row justify-between pb-3 sm:pb-5">
+                    <h2 class="text-lg sm:text-2xl font-bold pt-2">Onay Beach</h2>
+                    <span class="text-xs sm:text-sm pt-2 sm:pt-5 font-bold">$104.99/Night</span>
+                </div>
+                <p class="text-xs sm:text-sm pb-2 sm:pb-4">Onay beach is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba Benguet, Philippines, that offers the chance to see wild fire and is rated as moderate. The trail is primarily used for hiking.</p>
+                <span class="italic text-xs sm:text-sm">Submitted by: Andrew Mike</span>
+            </div>
+
+            <div class="border p-5 sm:p-10 shadow">
+                <div class="flex flex-row justify-between pb-3 sm:pb-5">
+                    <h4 class="font-bold">Andrew Jones</h4>
+                    <span class="text-xs sm:text-sm pt-1 font-bold">13h ago</span>
+                </div>
+                <p class="text-xs sm:text-sm italic">Honestly one of the best experiences ever, took us a while to figure out how to get there but it was amazing!</p>
+            </div>
+
+            <div class="border p-5 sm:p-10">
+                <div class="flex flex-row justify-between pb-3 sm:pb-5">
+                    <h4 class="font-bold">Isaac Dylan</h4>
+                    <span class="text-xs sm:text-sm pt-1 font-bold">1 day ago</span>
+                </div>
+                <p class="text-xs sm:text-sm italic">Traveling changes you as a person, you gain more perspective, this is the perfect spot to do that.</p>
+            </div>
+
+            <div class="border p-5 sm:p-10">
+                <div class="flex flex-row justify-between pb-3 sm:pb-5">
+                    <h4 class="font-bold">Hudson Luca</h4>
+                    <span class="text-xs sm:text-sm pt-1 font-bold">13h ago</span>
+                </div>
+                <p class="text-xs sm:text-sm italic">Definitely recommend going there not too far and not a lot of people to ruin the experience.</p>
+            </div>
+
+            <button class="bg-black text-white font-bold p-3 mt-10 rounded-lg float-right">Leave a review</button>
+        </div>
+        <img src="./Assets/Map.png" alt="..." class="border p-5 sm:p-10 w-full sm:w-2/3 mx-auto sm:mx-0 mb-5 sm:mb-0 block lg:hidden">
+        <!-- Map image at the bottom (visible on tablets and mobiles) -->
+    </main>
+    
+    <img src="./Assets/Logo.svg" alt="Logo" class=" mt-4 sm:mt-0">
+    <script src="./index.js"></script>
+</body>
+</html>
